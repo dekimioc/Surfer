@@ -1,0 +1,103 @@
+.Team {
+    margin-top: 300px;
+   position: relative;
+
+}
+
+.gallery {
+    text-align: center;
+    position: relative;
+}
+
+.firstTeam {
+    background-color: #fff;
+    box-shadow: 10px 10px 10px 10px #ccc;
+    display: inline-block;
+    position: relative;
+    top: -100px;
+    padding: 10px;
+    width: 150px;
+}
+
+.firstTeam:hover {
+    background-color: #00b0ff;
+    color: #fff;
+    z-index: 4;
+}
+
+.secondTeam {
+    background-color: #fff;
+    box-shadow: 10px 10px 10px 10px #ccc;
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+    top: -70px;
+    width: 150px;
+}
+
+.secondTeam:hover {
+    background-color: #00b0ff;
+    color: #fff;
+    z-index: 4;
+
+}
+.thirdTeam {
+    background-color: #fff;
+    box-shadow: 10px 10px 10px 10px #ccc;
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+    top: -100px;
+    width: 150px;
+}
+
+.thirdTeam:hover {
+    background-color: #00b0ff;
+    color: #fff;
+    z-index: 4;
+}
+
+.fourthTeam {
+    background-color: #fff;
+    box-shadow: 10px 10px 10px 10px #ccc;
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+    top: -70px;
+    width: 150px;
+}
+
+.fourthTeam:hover {
+    background-color: #00b0ff;
+    color: #fff;
+    z-index: 4;
+}
+
+.h1Bottom {
+    font-size: 15vw;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    color: #f7f7f7;
+}
+
+.leftArrow {
+    position: absolute;
+    left: 20%;
+    top: 56%;
+    color: #0022ff;
+    border-radius: 100%;
+    padding: 10px;
+    box-shadow: 3px 4px 3px 5px #ccc;
+}
+
+.rightArrow {
+    position: absolute;
+    right: 20%;
+    bottom: 40%;
+    color: #0022ff;
+    border-radius: 100%;
+    padding: 10px;
+    box-shadow: 3px 4px 3px 5px #ccc;
+}
+
