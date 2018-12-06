@@ -1,0 +1,62 @@
+.Instagram {
+    width: 400px;
+    
+} 
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 0;
+}
+
+
+.heading {
+    margin: 0;
+    padding: 0;
+    color: #f7f7f7;
+    font-size: 6.3vw;
+    text-transform: uppercase;
+    margin-bottom: -15px;
+}
+
+.bottomText {
+   width: 500px;
+   display: flex;
+   padding: 20px 0;
+   background-color: #fff;
+}
+
+.icon {
+    margin-left: 10px;
+    padding: 0;
+    fill: #00b0ff;
+}
+
+.follow {
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    color: #00b0ff;
+    margin-left: 10px;
+}
+
+.para {
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+}
+
+@media (max-width: 550px) { 
+    .Instagram {
+        width: 250px;
+    }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr
+    }
+
+    .bottomText {
+        width: 250px;
+    }
+}
