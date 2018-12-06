@@ -1,11 +1,9 @@
 import React from "react";
 import classes from './about.css';
-import surfer from '../../images/about/about_back.png';
 import * as FontAwesome from 'react-icons/fa/index';
 
 const about = () => (
-    <div className={classes.About}>
-        <img src={surfer} style={{maxWidth: "100%"}}/>
+    <div className={classes.container}>
         <div className={classes.content}>
             <div className={classes.Text}>
                 <h3 className={classes.heading}>We are surfers Co.</h3>
@@ -17,9 +15,9 @@ const about = () => (
             </div>
         </div>
         <video width="25%" controls className={classes.video}>
-                <source src="https://www.youtube.com/watch?v=Sou-nPU6VK4" />
-            </video>
-    </div>
+            <source src="https://www.youtube.com/watch?v=Sou-nPU6VK4" />
+        </video>
+        </div>
 );
 
 export default about;

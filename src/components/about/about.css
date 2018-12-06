@@ -1,5 +1,10 @@
-.About {
+.container {
     position: relative;
+    width: 100%;
+    background-image: url("../../images/about/about_back.png");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .content {
