@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "Montserrat Bold";
+    font-style: normal;
+    src: url("../fonts/Montserrat_bold/MontserratAlternates-Bold.eot");
+    src: local("Montserrat Bold"), local("Montserrat Bold"),
+        url("./Montserrat_bold/MontserratAlternates-Bold.svg") format("svg"),
+        url("./Montserrat_bold/MontserratAlternates-Bold.ttf") format("truetype"),
+        url("./Montserrat_bold/MontserratAlternates-Bold.woff") format("woff"),
+        url("./Montserrat_bold/MontserratAlternates-Bold.woff2") format("woff2")
+};
+
+@font-face {
+    font-family: "Montserrat Regular";
+    font-style: normal;
+    src: url("./Montserrat_Regular/MontserratAlternates-Regular.eot");
+    src: local("Montserrat Regular"), local("Montserrat Regular"),
+        url("./Montserrat_Regular/MontserratAlternates-Regular.svg") format("svg"),
+        url("./Montserrat_Regular/MontserratAlternates-Regular.ttf") format("truetype"),
+        url("./Montserrat_Regular/MontserratAlternates-Regular.woff") format("woff2"),
+        url("./Montserrat_Regular/MontserratAlternates-Regular.woff2") format("woff2")
+}
+
+@font-face {
+    font-family: "Playfair Display Italic";
+    font-style: normal;
+    src: url("./Playfair_Display_Italic/PlayfairDisplay-Italic.eot");
+    src: local("Playfair Display Italic"), local("Playfair Display Italic"),
+        url("./Playfair_Display_Italic/PlayfairDisplay-Italic.svg") format("svg"),
+        url("./Playfair_Displa_Italicy/PlayfairDisplay-Italic.ttf") format("truetype"),
+        url("./Playfair_Display_Italic/PlayfairDisplay-Italic.woff") format("woff"),
+        url("./Playfair_Display_Italic/PlayfairDisplay-Italic.woff2") format("woff2")
+}

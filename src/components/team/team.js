@@ -13,29 +13,29 @@ const team = () => (
         <FontAwesome.FaArrowLeft className={classes.leftArrow}/>
         <div className={classes.gallery}>
         <div className={classes.firstTeam}>
-            <img src={img1} style={{display: "block", margin: "0 auto"}}/>
-            <h4>Taj Burrow</h4>
+            <img src={img1} alt="team-member" style={{display: "block", margin: "0 auto"}}/>
+            <h4 className={classes.name}>Taj Burrow</h4>
             <h6>@tajamos</h6>
             <Typicon.TiWaves />
             <p><FontAwesome.FaMapMarkerAlt />Yallingup, Australia</p>
         </div>
         <div className={classes.secondTeam}>
-            <img src={img2} style={{display: "block", margin: "0 auto"}}/>
-            <h4>Malia Manuel</h4>
+            <img src={img2} alt="team-member" style={{display: "block", margin: "0 auto"}}/>
+            <h4 className={classes.name}>Malia Manuel</h4>
             <h6>@maliamanuel</h6>
             <Typicon.TiWaves />
             <p><FontAwesome.FaMapMarkerAlt />Wailua, Hi</p>
         </div>
         <div className={classes.thirdTeam}>
-            <img src={img3} style={{display: "block", margin: "0 auto"}}/>
-            <h4>Ian Walsh</h4>
+            <img src={img3} alt="team-member" style={{display: "block", margin: "0 auto"}}/>
+            <h4 className={classes.name}>Ian Walsh</h4>
             <h6>@ianwalsh</h6>
             <Typicon.TiWaves />
             <p><FontAwesome.FaMapMarkerAlt />Maui, Hi</p>
         </div>
         <div className={classes.fourthTeam}>
-            <img src={img4} style={{display: "block", margin: "0 auto"}}/>
-            <h4>Macy Callaghan</h4>
+            <img src={img4} alt="team-member" style={{display: "block", margin: "0 auto"}}/>
+            <h4 className={classes.name}>Macy Callaghan</h4>
             <h6>@macyjanecallaghan</h6>
             <Typicon.TiWaves />
             <p><FontAwesome.FaMapMarkerAlt />San Clemente, CA</p>

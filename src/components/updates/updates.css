@@ -21,6 +21,7 @@
 .section3 {
     display: inline-block;
     width: 270px;
+    margin-right: 20px;
 }
 
 .xButton {
@@ -42,6 +43,31 @@
     padding: 10px 20px;
     background-color: #00b0ff;
     color: #fff;
-    border: 0;
+    border: 5px solid #00b0ff;
     text-transform: uppercase;
+}
+
+.xButton:hover {
+    color: red;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #00b0ff;
+}
+
+@media (max-width: 600px) {
+    .xButton {
+        top: 42px
+    }
+    .section {
+        margin-top: 20px;
+    }
+    .section2 {
+        margin-top: 20px;
+    }
+
+    .section3 {
+        margin-top: 20px;
+    }
 }

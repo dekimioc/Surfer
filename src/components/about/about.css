@@ -1,39 +1,62 @@
-.container {
+.relative {
     position: relative;
-    width: 100%;
     background-image: url("../../images/about/about_back.png");
-    background-size: 100%;
-    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
+.container {
+    position: relative;
+    top: 150px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    
+}
+
 .content {
-    max-width: 50%;
-    max-height: 50%;
-    position: absolute;
-    top: 50%;
-    background-color: #fff;
+    margin-right: 40px;
 }
 
 .Text {
-    max-width: 50%;
-    float: right;
-    text-align: left;
-    padding: 20px;
+    max-width: 500px;
+    text-align: center;
+    background-color: #fff;
+    padding: 40px
 }
 
 .heading {
-    text-align: center;
+    font-family: "Montserrat Regular"
 }
 
-.closeButton {
-    display: block;
-    margin: 0 auto;
+.para {
+    text-align: left;
+    font-family: "Playfair Display Italic";
 }
 
-.video {
-    position: absolute;
-    left: 54%;
-    top: 90%;
-    box-shadow: 25px 25px 25px #ccc;
+.link {
+    color: #66d0ff;
+    font-family: "Montserrat Regular";
+}
+
+.linkPara {
+    text-align: left;
+}
+
+@media (max-width: 1000px) {
+    .container {
+        display: block;
+    }
+
+    .video {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 400px) {
+    .video {
+        margin-left: 10px;
+    }
 }

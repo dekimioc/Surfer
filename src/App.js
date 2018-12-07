@@ -4,8 +4,6 @@ import Header from './components/Header/Header';
 import About from './components/about/about';
 import Team from './components/team/team';
 import Updates from './components/updates/updates';
-import Instagram from './components/instagram/instagram';
-import Facebook from './components/facebook/facebook';
 import Social from './components/social/social';
 import Footer from './components/footer/footer';
 
