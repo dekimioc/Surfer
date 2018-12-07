@@ -8,13 +8,6 @@ class Header extends Component {
         showModal: false
     };
 
-    openModalHandler = () => {
-        this.setState({showModal: true})
-    }
-
-    modalClosedHandler = () => {
-        this.setState({showModal: false})
-    }
     toogleModal = () => {
         if(this.state.showModal === false) {
             this.setState({showModal: true})

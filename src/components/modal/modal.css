@@ -16,6 +16,12 @@
     margin-left: 50px;
 }
 
+.h4Heading {
+    margin-left: 50px;
+    max-width: 75%;
+    font-family: "Montserrat Bold";
+}
+
 .leftSide {
     max-width: 50%;
     display: flex;
@@ -65,10 +71,6 @@
     margin: -35px 50px;
 }
 
-.nav {
-
-}
-
 .ul {
     display: flex;
     list-style-type: none;
@@ -79,12 +81,19 @@
 
 .li {
     margin: 0 5px;
+    border-bottom: 3px solid #9c9c9c;
 }
 
 .price {
     display: flex;
     align-items: baseline;
     justify-items: baseline;
+    font-family: "Montserrat Bold"
+}
+
+.viewBoards {
+    font-family: "Montserrat Regular";
+    color: #00b0ff;
 }
 
 .buy {
@@ -95,4 +104,62 @@
     text-transform: uppercase;
     border: none;
     font-weight: bold;
+}
+
+@media (max-width: 1200px) {
+    .Modal {
+        width: 100%;
+        margin-left: 120px;
+    }
+
+    .arrows {
+        top: 15px;
+        left: 94%
+    }
+
+    .status {
+        top: 39px;
+        left: 90%;
+    }
+
+    .content {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 680px) {
+    .leftSide {
+        flex-wrap: wrap;
+    }
+
+    .smallPictures {
+        display: block;
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 580px) {
+    .Modal {
+        background-size: cover;
+        margin-left: 10px;
+        padding-right: 95px;
+    }
+
+    .ul {
+        display: inline;
+    }
+
+    .li {
+        margin-top: 5px;
+    }
+
+    .arrows {
+        top: -69px;
+        left: 50%
+    }
+
+    .status {
+        top: -45px;
+        left: 50%;
+    }
 }
